@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>week-4-game</title>
+	<link rel="stylesheet" href="assets/css/style.css" class="css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans|Poiret+One|Quicksand" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>		
+
+	<div id="header">
+		<h1>CrystalCollector!</h1>
+	</div>
+
+	<div id="container">
+		<h1>Number to Guess: <span id="targetNumber"></span></h1>
+			<h2>Wins: <span id="wins"></span></h2>
+			<h2>Losses: <span id="losses"></span></h2>
+		<h1>Your Total score is: <span id="totalScore"></h2>
+	</div>
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+	</script>
+
+<script type="text/javascript" src="assets/javascript/game.js">
+	</script>
+
+<div id="crystal-div">
+	<div id="crystal1">
+	  </div>
+	<div id="crystal2">
+	  </div>
+	<div id="crystal3">
+	  </div>
+	<div id="crystal4">
+	  </div>
+</div>
+
+<div id="instruction">
+	<p> You will be given a random number at the start of the game.
+		<br>
+		There are four crystal above. By clicking on a crystal you will add a specific amount of points to your total score.
+		<br>
+		You win the game by matching your total score to the random number, you lose the game if your total score goes above the random number.
+		<br>
+		The value of each crystal is hidden from you until you click on it.
+		<br>
+		Each time when the game starts, the game will change the values of each crystal.
+	</p>
+
+</body>
+</html>
