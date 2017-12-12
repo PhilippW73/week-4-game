@@ -66,6 +66,9 @@ $("#losses").html(losses);
 $("#totalScore").html(totalScore);
 
 });
+	
+$("#targetNumber").html(targetNumber);
+
 	function reset(){
 		totalScore = 0;
 		computerPickNumber();
